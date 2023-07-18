@@ -8,6 +8,7 @@ radio.onReceivedValue(function (name, value) {
 })
 RingbitCar.init_wheel(AnalogPin.P1, AnalogPin.P2)
 radio.setGroup(1)
+RingbitCar.freestyle(50, 50)
 basic.forever(function () {
 	
 })
